@@ -1,0 +1,88 @@
+body {
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg {
+  background-color: rgb(122, 133, 255); /* Cor de pêssego pastel */
+}
+
+.cover-container {
+  max-width: 56em;
+}
+
+.nav {
+  font-size: 1.5rem;
+}
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.mb-auto {
+  font-size: 1.2rem;
+}
+
+.mb-0 {
+  font-size: 2.2rem;
+}
+
+.png {
+  position: fixed;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-20%);
+  height: auto;
+  min-width: 45em;
+  width: 50%;
+  z-index: 2;
+  filter: drop-shadow(5px 5px 0px rgb(96, 11, 126, 0.6));
+  opacity: 0.7;
+}
+
+.col {
+  z-index: 999;
+}
+
+footer {
+  z-index: 999;
+}
+
+@media (max-width: 767px) {
+  .png {
+    transform: translateX(-50%); /* Adicionado para centralizar na tela */
+    min-width: 25em;
+  }
+
+  .container {
+    margin-top: -20px;
+  }
+
+  .nav {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    margin-bottom: -1.2em;
+  }
+
+}
